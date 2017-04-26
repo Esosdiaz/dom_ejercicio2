@@ -13,7 +13,6 @@
 	<span class="mensaje"></span>
 	<img src="http://lorempixel.com/output/city-q-c-301-301-9.jpg" alt="" class="mensaje">
 
-
 	<script>
 		var mens = document.getElementsByClassName("mensaje");
 		document.getElementsByTagName("span")[0].innerHTML = msgResult();
@@ -21,7 +20,7 @@
 		function msgResult(){
 			if(mens.length == 1){
 				return "<p>Es muy poco</p>"
-			} else if (1 > mens.length < 4){
+			} else if (1 < mens.length > 4){
 				return "<p>No está mal</p>"
 			} else {
 				return "<p>Son muchos!</p>"
